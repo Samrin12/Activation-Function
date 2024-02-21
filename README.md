@@ -34,9 +34,11 @@ F(x) = x
 Nonlinear activation functions are the most often utilized in neural networks. Non-linear activation functions offer benefits by aiding in backpropagation and enabling stacking. Non-linear combinations of functions inside a network facilitate the development and training of a model capable of adjusting weights and biases, with outputs represented as a functional computation. Non-linear activation functions enhance the measurement of inputs, outputs, and processes inside a neural network, leading to adjustments in equations until desired outputs are obtained. Activation functions enable back-propagation by providing gradients that are used to adjust the weights and biases based on the mistake. Key terms essential for understanding nonlinear functions include:
 
 **Differential or derivatives:** Change in the y-axis relative to the change in the x-axis. It is commonly referred to as a slope.
+
 **Monotonic function:** A function that is strictly increasing or decreasing.
 
 The non-linear activation Functions are primarily categorized based on their range or curve. The basic types of nonlinear functions, their equations, and graphic representations are given below. 
+
 **1.Sigmoid Function:** This function accepts any real number as an input and produces output numbers within the range of 0 to 1. As the input increases, the output value approaches 1, and as the input decreases, the output approaches 0. The equation and the graphical representation of the function are, 
 
 ![image](https://github.com/Samrin12/Activation-Function/assets/87581935/4df34ab3-538b-42c8-ad26-552c56e232cd)
@@ -51,11 +53,13 @@ The non-linear activation Functions are primarily categorized based on their ran
 
 
 **3.Rectified Linear Unit (ReLU):** Not all input values will trigger the ReLU function. Activation will occur only if the input value exceeds 0. The equation and graphical representation of the ReLU function are, 
+
 F(x) = x, if x> 0
 
 ![image](https://github.com/Samrin12/Activation-Function/assets/87581935/d33c35b5-9ef0-4a27-bb88-002923b117c9)
 
 **4.Leaky ReLU:** Leaky ReLU is an enhanced version of the ReLU function designed to address the issue of the Dying ReLU problem by introducing a slight positive slope in the negative region. The equation and graphical representation of the Leaky ReLU function are, 
+
 F(x) = (0.1x, x)
 
 ![image](https://github.com/Samrin12/Activation-Function/assets/87581935/5ebf51f8-1f01-42b3-b06f-004cab9eb3b0)

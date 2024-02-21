@@ -5,7 +5,9 @@ Activation functions are essential components of neural networks, serving a crit
 
 Each neuron in a neural network performs two computations.
 The diagram shows the linear combination of two inputs, x1 and x2, with corresponding weights w1 and w2, and a bias b. The formula represents the linear sum.
+
 z = w1x1 + w2x2 + ... + wnxn +b
+
 This calculation determines if a neuron should be triggered based on the weighted sum and an additional bias. The activation function's role is to bring non-linearity to the neuron's output. If the value is above the activation function's threshold, it will activate; otherwise, it will generate a very small value for values below the threshold. The following figure demonstrates the architecture of a neural network. 
 
 ![image](https://github.com/Samrin12/Activation-Function/assets/87581935/2947a7a4-191d-497e-98fa-c1c71f052a26)

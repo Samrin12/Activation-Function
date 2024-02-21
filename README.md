@@ -87,7 +87,14 @@ F(x) = (0.1x, x)
 ## Analysis of the Activation Functions and Implementation of Sigmoid and ReLU Activation Functions: 
 The sigmoid function is effective in output layers for classification problems because of its smooth and restricted output range of 0 to 1, matching probabilities. However, its high processing cost and tendency for gradients to vanish limit its applicability in hidden layers. ReLU is particularly effective in hidden layers of deep networks because of its quick computation, effectiveness, and ability to prevent vanishing gradients. It excels in regression tasks with possibly infinite results. Nevertheless, it can result in the death of neurons and necessitates cautious management. Leaky ReLU can be utilized to overcome the restrictions of ReLU, tanh can provide a similar output range to Sigmoid but with quicker computation, and Swish is known for its smooth non-linear properties.
 
-This work includes the implementation of the widely used Sigmoid and ReLU activation functions. I have selected random continuous values within a specified range as input values. The code also allows users to enter values by their own.
+This work includes the implementation of the widely used Sigmoid and ReLU activation functions. I have selected random continuous values within a specified range as input values. The code also allows users to enter values on their own. The output graph for the sigmoid function and the ReLU function for a given continuous value from the range of -10 to 10 with a step value of 0.2 are given below. 
+
+![image](https://github.com/Samrin12/Activation-Function/assets/87581935/6dfad6e7-d266-4679-80e6-4331c8e8e35c)
+
+![image](https://github.com/Samrin12/Activation-Function/assets/87581935/5fee4b71-2314-4047-b192-69fc96e9a581)
+
+
+
 
 
 

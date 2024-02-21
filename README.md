@@ -87,7 +87,21 @@ F(x) = (0.1x, x)
 ## Analysis of the Activation Functions and Implementation of Sigmoid and ReLU Activation Functions: 
 The sigmoid function is effective in output layers for classification problems because of its smooth and restricted output range of 0 to 1, matching probabilities. However, its high processing cost and tendency for gradients to vanish limit its applicability in hidden layers. ReLU is particularly effective in hidden layers of deep networks because of its quick computation, effectiveness, and ability to prevent vanishing gradients. It excels in regression tasks with possibly infinite results. Nevertheless, it can result in the death of neurons and necessitates cautious management. Leaky ReLU can be utilized to overcome the restrictions of ReLU, tanh can provide a similar output range to Sigmoid but with quicker computation, and Swish is known for its smooth non-linear properties.
 
-This work includes the implementation of the widely used Sigmoid and ReLU activation functions. I have selected random continuous values within a specified range as input values. The code also allows users to enter values on their own. The output graph for the sigmoid function and the ReLU function for a given continuous value from the range of -10 to 10 with a step value of 0.2 are given below. 
+This work includes the implementation of the widely used Sigmoid and ReLU activation functions. The following code was written to generate the sigmoid activation function and ReLU activation function respectively.
+
+![image](https://github.com/Samrin12/Activation-Function/assets/87581935/73202c86-4420-41b2-b4e5-e7605ea56fd2)
+
+![image](https://github.com/Samrin12/Activation-Function/assets/87581935/e290ab6f-a7a7-44d5-b24e-717ac666fa8f)
+
+I have set random continuous values within a specified range as default input values. The code also allows users to enter values on their own. The subsequent code will produce a prompt that let the user to choose whether they want to execute the function using the default value or whether they intend to provide the input according to their preference.
+
+![image](https://github.com/Samrin12/Activation-Function/assets/87581935/32a7ed20-3e53-4529-983c-c0a77b616a00)
+
+The resultant output of the code is, 
+
+![image](https://github.com/Samrin12/Activation-Function/assets/87581935/6940ffa6-6325-4f21-a0ec-fd3a45a7f01a)
+
+The output graph for the sigmoid function and the ReLU function for a given continuous value from the range of -10 to 10 with a step value of 0.2 are given below. 
 
 ![image](https://github.com/Samrin12/Activation-Function/assets/87581935/6dfad6e7-d266-4679-80e6-4331c8e8e35c)
 
